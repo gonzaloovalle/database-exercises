@@ -1,9 +1,37 @@
-USE codup_test_db;
+USE codeup_test_db;
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
-VALUES (Michael Jackson, Thriller, 1982, 66, Pop, Post-Disco, Funk, Rock),
-       (AC/DC, Back in Black, 1980, 50, Hard Rock),
-       (Meat Loaf, Bat Out of Hell, 1977, 50, Hard Rock, Glam Rock, Progressive Rock),
-       (Pink Flyod, The Dark Side of The Moon, 1973, 45, Progressive Rock),
+VALUES ('Michael Jackson', 'Thriller', 1982, 66, 'Pop, Post-Disco, Funk, Rock'),
+       ('AC/DC', 'Back in Black', 1980, 50, 'Hard Rock'),
+       ('Meat Loaf', 'Bat Out of Hell', 1977, 50, 'Hard Rock, Glam Rock, Progressive Rock'),
+       ('Pink Floyd', 'The Dark Side of The Moon', 1973, 45, 'Progressive Rock'),
+       ('Whitney Houston', 'The Bodyguard', 1992, 45, 'R&B, Soul, Pop, Soundtrack'),
+       ('Eagles', 'Their Greatest Hits', 1976, 42, 'Country Rock, Soft Rock, Folk Rock'),
+       ('Bee Gees', 'Saturday Night Fever', 1977, 40, 'Disco'),
+       ('Fleetwood Mac', 'Rumours', 1977, 40, 'Soft Rock'),
+       ('Shania Twain', 'Come on Over', 1997, 40, 'Country, Pop'),
+       ('Sha-Na-Na', 'Grease: The Original Soundtrack from the Motion Picture', 1978, 38, 'Rock and Roll'),
+       ('Led Zeppelin', 'Led Zeppelin IV', 1971, 35, 'Hard Rock, Heavy Meta, Folk lsexitRock'),
+       ('Michael Jackson', 'Bad', 1987, 35, 'Pop, R&B, Funk, Rock'),
+       ('Alanis Morissette', 'Jagged Little Pill', 33, 'Alternative Rock'),
+       ('Michael Jackson', 'Dangerous', 1991, 32, 'New Jack Swing, R&B, Pop'),
+       ('Celine Dion', 'Falling Into You', 1996, 32, 'Pop, Soft Rock'),
+       ('Eagles', 'Hotel California', 1976, 32, 'Soft Rock'),
+       ('The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', 1967, 32, 'Rock'),
+       ('Jennifer Warnes', 'Dirty Dancing', 1987, 32, 'Pop, Rock, R&B'),
+       ('Adele', '21', 2011, 31, 'Pop, Soul'),
+       ('Madonna', 'The Immaculate Collection', 1990, 31, 'Pop, Dance'),
+       ('Celine Dion', 'Lets Talk About Love', 1997, 31, 'Pop, Soft Rock'),
+       ('Metallica', 'Metallica', 1991, 31, 'Heavy Metal'),
+       ('The Beatles', '1', 2000, 31, 'Rock'),
+       ('ABBA', 'Gold: Greatest Hits', 1992, 30, 'Pop, Disco'),
+       ('The Beatles', 'Abbey Road', 1969, 30, 'Rock'),
+       ('Bruce Springsteen', 'Born in the USA', 1984, 30, 'Heartland Rock'),
+       ('Dire Straits', 'Brothers in Arms', 1985, 30, 'Roots Rock, Blues Rock, Soft Rock'),
+       ('James Horner', 'Titanic: Music from the Motion Picture', 1997, 30, 'Film Score'),
+       ('Nirvana', 'Nevermind', 1991, 30, 'Grunge, Alternative Rock'),
+       ('Pink Floyd', 'The Wall', 1979, 30, 'Progressive Rock'),
+       ('Santana', 'Supernatural', 1999, 30, 'Latin Rock'),
+       ('Guns N'' Roses', 'Appetite for Destruction', 1987, 30, 'Hard Rock');
 
 
